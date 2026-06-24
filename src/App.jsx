@@ -231,7 +231,7 @@ function App() {
       <section id='education' className='section'>
         <h2>Education</h2>
 
-        <div className='project-grid-3'>
+        <div className='project-grid'>
           <article className='main-project-card'>
             <h3>MS Cybersecurity (In Progress) </h3>
             <p className='eyebrow'>Georgia Institute of Technology</p>
@@ -239,7 +239,7 @@ function App() {
           </article>
         </div>
         <br />
-        <div className='project-grid-3'>
+        <div className='project-grid'>
           <article className='main-project-card'>
             <h3>BS Computer Science </h3>
             <p className='eyebrow'>Louisiana State University Alexandria</p>
@@ -252,7 +252,7 @@ function App() {
           </article>
         </div>
         <br />
-        <div className='project-grid-3'>
+        <div className='project-grid'>
           <article className='main-project-card'>
             <h3>BS Chemical Engineering </h3>
             <p className='eyebrow'>McNeese State University</p>
