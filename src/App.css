@@ -365,6 +365,11 @@ a {
     padding-left: 0;
   }
 
+  .main-project-card ul {
+    min-height: 10px;
+    padding-left: 0;
+  }
+
   .skills-grid-2 {
     grid-template-columns: 1fr;
   }
