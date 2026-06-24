@@ -6,9 +6,12 @@ function App() {
   return (
     <main className='site'>
       <nav className='navbar'>
-        <h1>
-          <a href='#hero'>Amber Michaelis</a>
-        </h1>
+        <div>
+          <h1>
+            <a href='#hero'>Amber Michaelis</a>
+          </h1>
+          <p href='#hero'>contact@ambermichaelis.com</p>
+        </div>
         <div className='nav-links'>
           <a href='#projects'>Projects</a>
           <a href='#skills'>Skills</a>
@@ -44,7 +47,12 @@ function App() {
           >
             Visit GitHub
           </a>
-          <h3>CompTIA Security+ | BS Computer Science | MS Cybersecurity</h3>
+          <div>
+          <h3>CompTIA Security+</h3>
+          <h3>BS Computer Science</h3>
+          <h3>BS Chemical Engineering</h3>
+          <h3>MS Cybersecurity</h3>
+          </div>
         </div>
       </section>
 
@@ -250,7 +258,7 @@ function App() {
             <p className='eyebrow'>McNeese State University</p>
             <ul>
               <li>GPA: 3.42 / 4.0</li>
-              <li>Minors: Math, Chemistry, Biology</li>
+              <li>Focus: Math, Chemistry, Biology</li>
               <li>Society of Women Engineers</li>
             </ul>
           </article>
@@ -261,14 +269,13 @@ function App() {
       <section id='certifications' className='section'>
         <h2>Certifications</h2>
         <article className='main-project-card'>
-          <h3>CompTIA Security+</h3>
-          <h3>Google Cybersecurity</h3>
-          <h3>Stanford Machine Learning</h3>
-          <h3>Georgia Tech Data Structures & Algorithms</h3>
-          <h3>Texas Teaching: 6-12 Grade Math, Science, & Engineering</h3>
-          <h3>CompTIA Network+ (In Progress)</h3>
-          <h3>CompTIA PenTest+ (In Progress)</h3>
-          <h3>CompTIA Ethical Hacker Pro CertMaster Course (In Progress)</h3>
+          <p>CompTIA Security+</p>
+          <p>Google Cybersecurity</p>
+          <p>Stanford Machine Learning</p>
+          <p>Georgia Tech Data Structures & Algorithms</p>
+          <p>Texas Teaching: 6-12 Grade Math, Science, & Engineering</p>
+          <p>CompTIA Network+ (In Progress)</p>
+          <p>CompTIA Ethical Hacker Pro CertMaster Course (In Progress)</p>
         </article>
       </section>
 
@@ -284,20 +291,15 @@ function App() {
               LinkedIn
             </a>
             <a
-              href='mailto:contact@ambermichaelis.com'
-              target='_blank'
-              className='secondary'
-            >
-              Email
-            </a>
-            <a
               href='https://github.com/AmberMichaelis'
               target='blank'
               rel='noopener noreferrer'
+              className='secondary'
             >
               GitHub
             </a>
           </div>
+          <p href='#hero'>contact@ambermichaelis.com</p>
         </article>
       </section>
       <nav className='navbar'>
