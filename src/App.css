@@ -111,7 +111,8 @@ a {
 }
 
 .hero-buttons {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
   justify-content: center;
   gap: 16px;
   margin-top: 20px;
@@ -340,8 +341,20 @@ a {
   }
 
   .hero-buttons {
+    grid-template-columns: 1fr;
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .hero-buttons a:nth-child(odd) {
+    background: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+  }
+
+  .hero-buttons a:nth-child(even) {
+    background: var(--white);
+    color: var(--deep-navy);
   }
 
   .hero-buttons a {

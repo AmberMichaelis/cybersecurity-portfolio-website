@@ -36,7 +36,12 @@ function App() {
         </p>
 
         <div className='hero-buttons'>
-          <a href='#projects'>View Projects</a>
+          <a href='https://www.krustykrab.us/resume.html' target='_blank'>
+            View Digital Resume
+          </a>
+          <a href='#projects' className='secondary'>
+            View Projects
+          </a>
           <a href='/Amber_Michaelis_Resume.pdf' download className='secondary'>
             Download Resume
           </a>
@@ -47,13 +52,13 @@ function App() {
           >
             Visit GitHub
           </a>
-          <div>
-          <h3>CompTIA Security+</h3>
-          <h3>BS Computer Science</h3>
-          <h3>BS Chemical Engineering</h3>
-          <h3>MS Cybersecurity</h3>
-          </div>
         </div>
+          <div>
+            <h3>CompTIA Security+</h3>
+            <h3>BS Computer Science</h3>
+            <h3>BS Chemical Engineering</h3>
+            <h3>MS Cybersecurity</h3>
+          </div>
       </section>
 
       <section id='projects' className='section'>
@@ -144,7 +149,7 @@ function App() {
             </ul>
             <div className='hero-buttons'>
               <a
-                href='https://www.krustykrab.us/projects'
+                href='https://www.krustykrab.us/projects.html'
                 target='_blank'
                 rel='noopener noreferrer'
               >
