@@ -26,7 +26,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background:
-    linear-gradient(rgba(4, 21, 39, 0.2), rgba(4, 21, 39, 0.9)),
+    linear-gradient(rgba(5,18,35,.45), rgba(4, 21, 39, 0.9)),
     url('/ocean-bg.png');
   background-size: cover;
   background-position: center top;

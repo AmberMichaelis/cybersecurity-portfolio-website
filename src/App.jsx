@@ -62,7 +62,7 @@ function App() {
       </section>
 
       <section id='projects' className='section'>
-        <h2>Featured Cybersecurity Projects</h2>
+        <h2>Featured Projects</h2>
 
         <div className='project-grid'>
           <article className='main-project-card'>
@@ -166,7 +166,7 @@ function App() {
               A growing collection of technical articles about the internet,
               operating systems, the cloud, social media algorithms, search
               engines, cybersecurity, cyber law, cyber warfare, and artificial
-              intelligence..
+              intelligence.
             </p>
             <div className='hero-buttons'>
               <a
