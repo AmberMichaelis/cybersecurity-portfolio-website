@@ -113,24 +113,23 @@ function App() {
           </article>
 
           <article className='project-card'>
-            <h3>IOC Parser</h3>
+            <h3>Azure Investigation</h3>
             <p>
-              Extracts indicators of compromise such as IP addresses, domains,
-              URLs, hashes, and emails from text files or security notes.
+              Built and investigated a Microsoft Sentinel lab in Azure using Windows Server 2022. Reconstructed user activity through authentication, process creation, and scheduled task events.
             </p>
             <ul>
-              <li>Regex</li>
-              <li>Threat Intelligence</li>
-              <li>IOC extraction</li>
-              <li>DFIR Workflows</li>
+              <li>Azure Monitor Agent</li>
+              <li>Data Collection Rules</li>
+              <li>Log Analytics</li>
+              <li>KQL</li>
             </ul>
             <div className='hero-buttons'>
               <a
-                href='https://github.com/AmberMichaelis/cybersecurity/blob/main/security-automation/tools/ioc_parser.py'
+                href='https://github.com/AmberMichaelis/Investigations/blob/0499a003919268a679d638ba59dac867aa06780e/investigation-001-operation-lifeline/portfolio/README.md'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                View Code
+                README
               </a>
             </div>
           </article>
@@ -185,7 +184,7 @@ function App() {
         <h2>Technical Skills</h2>
         <div className='skills-grid-2'>
           <article className='skills-card'>
-            <h3>Security</h3>
+            <h3>Security Operations</h3>
             <ul>
               <li>Incident Response</li>
               <li>Threat Hunting</li>
@@ -195,19 +194,6 @@ function App() {
               <li>OSINT</li>
             </ul>
           </article>
-          <article className='skills-card'>
-            <h3>Programming</h3>
-            <ul>
-              <li>Python</li>
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Node.js</li>
-              <li>HTML/CSS</li>
-              <li>Bash</li>
-            </ul>
-          </article>
-        </div>
-        <div className='skills-grid-2'>
           <article className='skills-card'>
             <h3>Data & Analysis</h3>
             <ul>
@@ -219,15 +205,31 @@ function App() {
               <li>Machine Learning</li>
             </ul>
           </article>
+        </div>
+        <div className='skills-grid-2'>
+          <article className='skills-card'>
+            <h3>Programming</h3>
+            <ul>
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>HTML/CSS</li>
+              <li>Bash</li>
+              <li>APIs</li>
+              <li></li>
+            </ul>
+          </article>
           <article className='skills-card'>
             <h3>Infrastucture</h3>
             <ul>
-              <li>Linux</li>
               <li>MacOS</li>
               <li>Git/GitHub</li>
               <li>Networking</li>
               <li>DNS</li>
               <li>Virtualization</li>
+              <li>Microsoft 365</li>
+              <li>Google Workspace</li>
             </ul>
           </article>
         </div>
